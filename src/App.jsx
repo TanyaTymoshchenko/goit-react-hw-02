@@ -35,7 +35,7 @@ function App() {
 
     return (
         <div>
-            <Description title='Sip Happens Café' description='Please, kindly leave your feedback about our service by selecting one of the options below.' />
+            <Description title='Sip Happens Café' description='Please, kindly leave your feedback about our service by selecting one of the options below:' />
             <Options onClick={updateFeedback} reset={totalFeedback} onReset={resetFeedback} />
             {totalFeedback > 0 ? (
                 <Feedback
